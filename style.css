@@ -27,6 +27,7 @@ body{
 	top: 50%;
 	transform: translate(-50%, -50%);
 	background-color: var(--blue2);
+	border-radius: 20px;
 }
 
 .content-int {
@@ -79,6 +80,8 @@ body{
 		      rgba(51,0,102, 0.60)
 		    ),
 		url(images/image-header-desktop.jpg);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 @media (max-width: 375px) {
